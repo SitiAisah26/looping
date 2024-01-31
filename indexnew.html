@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //looping for
+        for(let i =1; i <10; i++) {
+            console.log(i)
+        }
+
+        //looping while
+        let a = 1;
+        while (a <= 10) {
+            a++;
+        }
+
+        //looping 
+        let b = 1;
+        do {
+            console.log(b);
+            b++;    
+        }while(b <= 10);
+
+       //looping for 
+       for (let x = 1; x <= 50; x++) {
+            if ( x % 2 == 0) {
+                console.log(`${x} bilangan genap`)
+            } else {
+                console.log(`${x} bilangan ganjil`)
+            }
+       }
+    
+        //looping while
+        let y = 1;
+        while (y <= 50) {
+            if ( y % 2 == 0 ) {
+                console.log(`${y} bilangan genap`)
+            } else {
+                console.log(`${y} bilangan ganjil`)
+            }
+            y++;
+       }
+         
+       //looping do while
+       let c = 1;
+       do  {
+            if ( c % 2 == 0) {
+                console.log(`${c} bilangan genap`)
+            } else {
+                console.log(`${c} bilangan ganjil`)
+            }
+            c++;  
+        }while (c <=50);
+       
+
+        //faktorial dari 5
+        let n = 5;
+        let hasil = 1;
+        for(let n = 2; n <= 5; n++) {
+            hasil *= n;
+        }
+        console.log(hasil)
+
+        //faktorial dari 5
+        let number = 5;
+        let faktorial = 1;
+
+        for(let l = 1; 1 <=number; l++) {
+            faktorial *= 1;
+        }
+        console.log(`faktorial dari ${number} adalah ${faktorial}`)
+
+        //faktotial while
+        let no = 5; 
+        let fac = 1;
+        let u = 1;
+
+        while (u <=no) {
+            fac *= u;
+            u++
+        } console.log(`faktorial dari ${no}adalah ${fac}`)
+
+        //faktorial do while
+        let faktor = 1;
+        let k = 1;
+        let num = 5;
+
+        do {
+            faktor *= k;
+            k++;
+        }while(k <= num);
+        console.log(`faktorial dari ${num} adalah ${faktor}`);
+
+        //menghitung nilai kejuruan pplg 
+    let = `Iqbaal` ;
+    let pabp = 70;
+    let mtk = 82;
+    let dpk = 77;
+
+    let rata2 = (pabp + mtk + dpk) / 3;
+
+    if (rata2 >= 80 && rata2 <=100){
+        grade = "A";
+    }
+    else if(rata2 >= 75 && rata2 <=80){
+        grade = "B";
+    }
+    else if(rata2 >= 65 && rata2 <= 75){
+        grade = "C";
+    }
+    else if(rata2 >=45 && rata2 <= 65){
+        grade = "D";
+    }
+    else if(rata2 >=0 && rata2 <=45){
+        grade = "E";
+    }
+    else {
+        grade = "K";
+    }
+
+    console.log("nilai: " + grade), console.log("hasil rata rata: " + Math.floor (rata2))
+
+    //kode pegawai
+    let kodepegawai = 22505197803;
+    </script>
+</body>
+</html>
